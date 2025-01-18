@@ -21,13 +21,13 @@ function Rating() {
       {!submitted ? (
         <div className="Rating-content">
           <div className="circle">
-            <img src="./src/Components/images/icon-star.svg" alt="star-icon" />
+            <img src="/images/icon-star.svg" alt="star-icon" />
           </div>
           <h1>How did we do?</h1>
           <p>
             Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!
           </p>
-
+         
           <div className="rate">
             {[1, 2, 3, 4, 5].map((rating) => (
               <span
@@ -45,7 +45,7 @@ function Rating() {
       ) : (
         <div className="Rating-content Thank-u-contnet">
           <div>
-            <img src="./src/Components/images/illustration-thank-you.svg" alt="star-icon" />
+            <img src="/images/illustration-thank-you.svg" alt="star-icon" />
           </div>
           <p className='U-selected'>You selected {selectedRating} out of 5</p>
           <h1>Thank You!</h1>
